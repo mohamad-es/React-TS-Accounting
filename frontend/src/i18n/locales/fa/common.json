@@ -1,0 +1,403 @@
+{
+  "common": {
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "delete": "حذف",
+    "edit": "ویرایش",
+    "close": "بستن",
+    "search": "جستجو",
+    "loading": "در حال بارگذاری...",
+    "confirm": "تأیید",
+    "yes": "بله",
+    "no": "خیر",
+    "view": "مشاهده",
+    "create": "ایجاد",
+    "sortBy": "مرتب‌سازی بر اساس",
+    "asc": "صعودی",
+    "desc": "نزولی",
+    "logout": "خروج",
+    "selectDate": "انتخاب تاریخ",
+    "noContent": "محتوایی یافت نشد",
+    "pageOf": "صفحه {{page}} از {{total}}",
+    "itemsPerPage": "تعداد در صفحه"
+  },
+  "sidebar": {
+    "dashboard": "داشبورد",
+    "users": {
+      "title": "کاربران",
+      "customers": "مشتریان",
+      "employees": "کارمندان",
+      "auditLog": "گزارش فعالیت کاربران"
+    },
+    "finance": {
+      "title": "امور مالی",
+      "transactions": "تراکنش‌ها",
+      "goldWallet": "گردش کیف پول طلا",
+      "giftCards": "کارت‌های هدیه",
+      "withdrawals": "درخواست‌های برداشت"
+    },
+    "banks": {
+      "title": "بانک‌ها",
+      "list": "لیست بانک‌ها",
+      "customerAccounts": "حساب‌های بانکی مشتریان"
+    },
+    "branches": {
+      "title": "شعب و تحویل طلا",
+      "list": "شعب",
+      "deliveryRequests": "درخواست‌های تحویل طلا"
+    },
+    "support": {
+      "title": "پشتیبانی",
+      "tickets": "تیکت‌ها",
+      "categories": "دسته‌بندی تیکت‌ها"
+    },
+    "content": {
+      "title": "مدیریت محتوا",
+      "blogPosts": "نوشته‌های وبلاگ",
+      "blogCategories": "دسته‌بندی وبلاگ",
+      "stories": "استوری‌ها",
+      "faq": "سؤالات متداول",
+      "faqCategories": "دسته‌بندی سؤالات متداول"
+    },
+    "systemSettings": "تنظیمات سیستم",
+    "projects": {
+      "title": "پروژه‌ها",
+      "list": "لیست پروژه‌ها",
+      "auditLog": "گزارش فعالیت"
+    }
+  },
+  "language": {
+    "select": "انتخاب زبان"
+  },
+  "dashboard": {
+    "cards": {
+      "totalRevenue": "مجموع درآمد",
+      "newCustomers": "مشتریان جدید",
+      "activeAccounts": "حساب‌های فعال",
+      "growthRate": "نرخ رشد",
+      "trendingUp": "روند صعودی در این ماه",
+      "visitorsSixMonths": "بازدیدکنندگان در ۶ ماه گذشته",
+      "downPeriod": "کاهش {{value}} در این دوره",
+      "acquisitionAttention": "جذب مشتری نیاز به توجه دارد",
+      "retention": "حفظ کاربر قوی است",
+      "engagementTargets": "تعامل از اهداف فراتر رفته است",
+      "steadyIncrease": "افزایش پایدار عملکرد",
+      "growthProjections": "مطابق پیش‌بینی رشد",
+      "visitorsMonths": "بازدیدکنندگان در {{months}} ماه گذشته"
+    },
+    "chart": {
+      "totalVisitors": "مجموع بازدیدکنندگان",
+      "totalLast3Months": "مجموع {{months}} ماه گذشته",
+      "last3Months": "{{months}} ماه گذشته",
+      "last30Days": "{{days}} روز گذشته",
+      "last7Days": "{{days}} روز گذشته",
+      "selectValue": "انتخاب بازه زمانی",
+      "visitors": "بازدیدکنندگان",
+      "desktop": "دسکتاپ",
+      "mobile": "موبایل"
+    },
+    "title": "داشبورد",
+    "description": "نمای کلی عملکرد و آمار سیستم"
+  },
+  "theme": {
+    "select": "انتخاب پوسته",
+    "light": "روشن",
+    "dark": "تیره",
+    "system": "سیستم"
+  },
+  "auth": {
+    "login": {
+      "title": "خوش آمدید",
+      "description": "با اطلاعات حساب مدیر ارشد وارد شوید",
+      "apple": "ورود با Apple",
+      "google": "ورود با Google",
+      "orContinueWith": "یا با استفاده از ادامه دهید",
+      "email": "ایمیل",
+      "emailPlaceholder": "m@example.com",
+      "username": "نام کاربری",
+      "usernamePlaceholder": "نام کاربری خود را وارد کنید",
+      "password": "رمز عبور",
+      "forgotPassword": "رمز عبور را فراموش کرده‌اید؟",
+      "submit": "ورود",
+      "loggingIn": "در حال ورود...",
+      "mfaUnsupported": "این حساب به احراز هویت چندمرحله‌ای نیاز دارد که هنوز پشتیبانی نمی‌شود.",
+      "noAccount": "حساب کاربری ندارید؟",
+      "signUp": "ثبت‌نام",
+      "termsPrefix": "با ادامه دادن، با",
+      "terms": "شرایط استفاده از خدمات",
+      "and": "و",
+      "privacy": "سیاست حفظ حریم خصوصی"
+    }
+  },
+  "projects": {
+    "list": {
+      "title": "پروژه‌ها",
+      "description": "پروژه‌ها و تنظیمات دسترسی آن‌ها را مدیریت کنید."
+    },
+    "create": {
+      "title": "ایجاد پروژه",
+      "description": "یک پروژه جدید ایجاد کنید و تنظیمات احراز هویت آن را مشخص کنید."
+    },
+    "edit": {
+      "title": "ویرایش پروژه",
+      "description": "اطلاعات پروژه و تنظیمات دسترسی آن را ویرایش کنید."
+    },
+    "form": {
+      "key": "کلید پروژه",
+      "keyDescription": "یک slug یکتا مانند fonitas-auth.",
+      "name": "نام",
+      "url": "آدرس",
+      "description": "توضیحات",
+      "authOnly": "فقط احراز هویت",
+      "authOnlyDescription": "برای این پروژه، RBAC احراز هویت هنگام ورود را نادیده بگیر.",
+      "active": "فعال",
+      "activeDescription": "مشخص می‌کند پروژه فعال باشد یا خیر."
+    },
+    "validation": {
+      "required": "این فیلد الزامی است.",
+      "slug": "فقط از حروف انگلیسی کوچک، عدد و خط تیره استفاده کنید.",
+      "url": "یک آدرس معتبر وارد کنید."
+    },
+    "table": {
+      "id": "آیدی",
+      "key": "کلید پروژه",
+      "name": "نام",
+      "url": "آدرس",
+      "authOnly": "احراز هویت",
+      "status": "وضعیت",
+      "actions": "عملیات پروژه",
+      "toggleActive": "تغییر وضعیت پروژه"
+    },
+    "sort": {
+      "key": "کلید پروژه",
+      "name": "نام",
+      "status": "وضعیت",
+      "authOnly": "احراز هویت"
+    },
+    "filters": {
+      "all": "همه",
+      "status": {
+        "label": "وضعیت",
+        "active": "فعال",
+        "inactive": "غیرفعال"
+      },
+      "authOnly": {
+        "label": "احراز هویت",
+        "required": "الزامی",
+        "notRequired": "غیرالزامی"
+      }
+    },
+    "deactivate": {
+      "title": "غیرفعال کردن پروژه؟",
+      "description": "پروژه «{{name}}» غیرفعال خواهد شد و دیگر فعال نخواهد بود.",
+      "confirm": "غیرفعال کردن"
+    },
+    "details": {
+      "subtitle": "جزئیات و تنظیمات پروژه",
+      "overview": "نمای کلی",
+      "overviewDescription": "تمام اطلاعاتی که از سرویس پروژه دریافت شده است.",
+      "id": "آیدی",
+      "key": "کلید پروژه",
+      "name": "نام",
+      "url": "آدرس",
+      "description": "توضیحات",
+      "noDescription": "توضیحی ثبت نشده است.",
+      "status": "وضعیت",
+      "authOnly": "فقط احراز هویت",
+      "back": "بازگشت به پروژه‌ها",
+      "notFound": "پروژه موردنظر پیدا نشد."
+    }
+  },
+  "users": {
+    "list": {
+      "title": "کاربران",
+      "description": "کاربران سیستم را مدیریت کنید."
+    },
+    "create": {
+      "title": "ایجاد کاربر",
+      "description": "یک هویت کاربری جدید ایجاد کنید بدون ارسال ایمیل.",
+      "button": "ایجاد کاربر"
+    },
+    "edit": {
+      "title": "ویرایش کاربر",
+      "description": "اطلاعات هویتی و وضعیت حساب کاربر را ویرایش کنید."
+    },
+    "form": {
+      "username": "نام کاربری",
+      "email": "ایمیل",
+      "password": "رمز عبور",
+      "emailVerified": "ایمیل تأیید شده",
+      "emailVerifiedDescription": "آدرس ایمیل را به عنوان تأییدشده علامت بزنید.",
+      "active": "فعال",
+      "activeDescription": "مشخص می‌کند حساب قابل استفاده باشد یا خیر."
+    },
+    "validation": {
+      "usernameRequired": "نام کاربری الزامی است.",
+      "emailInvalid": "یک ایمیل معتبر وارد کنید.",
+      "passwordMin": "رمز عبور باید حداقل ۸ نویسه داشته باشد.",
+      "reasonRequired": "دلیل مسدودسازی الزامی است.",
+      "projectRequired": "یک پروژه معتبر انتخاب کنید."
+    },
+    "sort": {
+      "username": "نام کاربری",
+      "lastLogin": "آخرین ورود",
+      "email": "ایمیل"
+    },
+    "table": {
+      "id": "شناسه",
+      "username": "نام کاربری",
+      "email": "ایمیل",
+      "project": "پروژه",
+      "role": "نقش",
+      "active": "فعال",
+      "inactive": "غیرفعال",
+      "status": "وضعیت",
+      "blocked": "مسدود",
+      "lastLogin": "آخرین ورود",
+      "actions": "عملیات"
+    },
+    "details": {
+      "subtitle": "جزئیات حساب کاربر",
+      "id": "شناسه",
+      "username": "نام کاربری",
+      "email": "ایمیل",
+      "active": "فعال",
+      "blocked": "مسدود",
+      "emailVerified": "ایمیل تأیید شده",
+      "notVerified": "تأیید نشده",
+      "lastLogin": "آخرین ورود",
+      "createdAt": "ایجاد شده در",
+      "updatedAt": "به‌روزرسانی شده در",
+      "deletedAt": "حذف شده در",
+      "blockReason": "دلیل مسدودی",
+      "actions": "عملیات حساب",
+      "back": "بازگشت به کاربران",
+      "notFound": "کاربر موردنظر پیدا نشد."
+    },
+    "actions": {
+      "restore": "بازیابی",
+      "setPassword": "تغییر رمز عبور",
+      "verifyEmail": "تأیید ایمیل",
+      "unverifyEmail": "لغو تأیید ایمیل",
+      "setFirstAdmin": "تعیین مدیر اول",
+      "block": "مسدود کردن",
+      "unblock": "رفع مسدودی",
+      "delete": "حذف",
+      "blockReasonPrompt": "دلیل مسدود کردن کاربر را وارد کنید:",
+      "passwordPrompt": "رمز عبور جدید را وارد کنید:",
+      "projectIdPrompt": "شناسه پروژه را وارد کنید:",
+      "deleteConfirm": "آیا از حذف این کاربر مطمئن هستید؟"
+    }
+  },
+  "validation": {
+    "usernameRequired": "نام کاربری الزامی است.",
+    "passwordRequired": "رمز عبور الزامی است.",
+    "passwordMin": "رمز عبور باید حداقل ۸ نویسه داشته باشد."
+  },
+  "finance": {
+    "create": "ایجاد",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "settings": "اطلاعات فروشنده",
+    "contributors": "طرف‌های ثالث و همکاران",
+    "accruals": "سهم فروش",
+    "name": "نام",
+    "key": "کلید پروژه",
+    "userId": "شناسه کاربر فونیتاس",
+    "legalName": "نام قانونی",
+    "email": "ایمیل",
+    "street": "خیابان و پلاک",
+    "city": "شهر",
+    "postalCode": "کد پستی",
+    "country": "کد کشور",
+    "vatId": "شناسه مالیات",
+    "locale": "زبان",
+    "kind": "نوع همکاری",
+    "projectId": "پروژه",
+    "customerId": "مشتری",
+    "contributorId": "همکار",
+    "number": "شماره قرارداد",
+    "version": "نسخه",
+    "rate": "سهم فروش (%)",
+    "startsAt": "شروع اعتبار",
+    "endsAt": "پایان اعتبار (اختیاری)",
+    "description": "شرح",
+    "amount": "مبلغ (یورو)",
+    "classification": "نوع هزینه",
+    "recurrence": "دوره",
+    "dueDate": "سررسید",
+    "supplyDate": "تاریخ ارائه",
+    "buyerReference": "مرجع خریدار",
+    "quantity": "تعداد",
+    "unitPrice": "قیمت واحد (یورو)",
+    "vatRate": "مالیات (%)",
+    "phone": "تلفن",
+    "contactName": "شخص تماس",
+    "addLine": "افزودن ردیف",
+    "remove": "حذف",
+    "contracts": "قراردادها",
+    "preview": "چاپ / پیش‌نمایش",
+    "xml": "دانلود فاکتور الکترونیکی",
+    "issue": "صدور فاکتور",
+    "approve": "تأیید سهم",
+    "saved": "ذخیره شد.",
+    "select": "انتخاب…",
+    "basis": "سهم از فروش خالص پیش از کارمزد پرداخت و بدون مالیات محاسبه می‌شود.",
+    "scope": "این فرایند فروش داخلی آلمان با مالیات ۷ یا ۱۹ درصد را پشتیبانی می‌کند.",
+    "missingSeller": "ابتدا اطلاعات قانونی فروشنده فونیتاس را ذخیره کنید.",
+    "validation": "فاکتورها پیش از صدور اعتبارسنجی می‌شوند و پس از صدور قابل ویرایش نیستند.",
+    "configuration": "پیکربندی",
+    "ready": "تنظیم شده",
+    "missing": "تنظیم نشده",
+    "validator": "اعتبارسنج فاکتور",
+    "mollie": "پرداخت آزمایشی مولی",
+    "draft": "پیش‌نویس",
+    "issued": "صادر شده",
+    "paid": "پرداخت شده",
+    "pending": "در انتظار",
+    "approved": "تأیید شده",
+    "back": "بازگشت",
+    "download": "دانلود",
+    "currency": "یورو",
+    "contractId": "قرارداد",
+    "title": "امور مالی فونیتاس",
+    "login": "ورود",
+    "username": "نام کاربری یا ایمیل",
+    "password": "رمز عبور",
+    "code": "کد تأیید",
+    "continue": "ادامه",
+    "logout": "خروج",
+    "projects": "پروژه‌ها",
+    "customers": "مشتریان",
+    "expenses": "هزینه‌ها",
+    "invoices": "فاکتورها",
+    "payments": "تاریخچه پرداخت",
+    "refresh": "تازه‌سازی",
+    "empty": "هنوز رکوردی وجود ندارد.",
+    "ownInvoices": "فاکتورهای شما",
+    "pay": "پرداخت",
+    "loading": "در حال بارگیری…",
+    "enums": {
+      "DEVELOPER": "توسعه‌دهنده",
+      "AFFILIATE": "همکار فروش",
+      "MARKETING": "بازاریابی",
+      "PROMOTER": "تبلیغ‌کننده",
+      "MEDIA": "رسانه دیجیتال",
+      "EMPLOYEE": "کارمند",
+      "CONTRACTOR": "پیمانکار",
+      "INVESTOR": "سرمایه‌گذار",
+      "FIXED": "ثابت",
+      "VARIABLE": "متغیر",
+      "ONCE": "یک‌بار",
+      "MONTHLY": "ماهانه",
+      "YEARLY": "سالانه"
+    },
+    "invalid": "این فیلد را بررسی کنید.",
+    "status": "وضعیت",
+    "actions": "عملیات",
+    "search": "جستجو…",
+    "previous": "صفحه قبل",
+    "next": "صفحه بعد",
+    "forbidden": "دسترسی مجاز نیست."
+  }
+}

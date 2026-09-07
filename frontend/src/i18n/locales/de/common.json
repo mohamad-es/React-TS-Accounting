@@ -1,0 +1,373 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search",
+    "loading": "Loading...",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "view": "View",
+    "create": "Create",
+    "sortBy": "Sort by",
+    "asc": "Ascending",
+    "desc": "Descending",
+    "logout": "Log out",
+    "selectDate": "Select date",
+    "noContent": "No content found",
+    "pageOf": "Page {{page}} of {{total}}",
+    "itemsPerPage": "Items per page"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "projects": {
+      "title": "Projects",
+      "list": "List",
+      "auditLog": "Audit log"
+    },
+    "users": {
+      "title": "Users",
+      "customers": "Customers",
+      "employees": "Employees",
+      "auditLog": "User activity log"
+    },
+    "systemSettings": "System settings"
+  },
+  "language": {
+    "select": "Sprache auswählen"
+  },
+  "dashboard": {
+    "cards": {
+      "totalRevenue": "Total Revenue",
+      "newCustomers": "New Customers",
+      "activeAccounts": "Active Accounts",
+      "growthRate": "Growth Rate",
+      "trendingUp": "Trending up this month",
+      "visitorsSixMonths": "Visitors for the last 6 months",
+      "downPeriod": "Down {{value}} during this period",
+      "acquisitionAttention": "Acquisition needs attention",
+      "retention": "Strong user retention",
+      "engagementTargets": "Engagement exceeds targets",
+      "steadyIncrease": "Steady performance increase",
+      "growthProjections": "Meets growth projections",
+      "visitorsMonths": "Visitors over the last {{months}} months"
+    },
+    "chart": {
+      "totalVisitors": "Total Visitors",
+      "totalLast3Months": "Total for the last {{months}} months",
+      "last3Months": "Last {{months}} months",
+      "last30Days": "Last {{days}} days",
+      "last7Days": "Last {{days}} days",
+      "selectValue": "Select a value",
+      "visitors": "Visitors",
+      "desktop": "Desktop",
+      "mobile": "Mobile"
+    },
+    "title": "Dashboard",
+    "description": "Overview of system performance and key metrics"
+  },
+  "theme": {
+    "select": "Design auswählen",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "description": "Sign in with your super-admin credentials",
+      "apple": "Login with Apple",
+      "google": "Login with Google",
+      "orContinueWith": "Or continue with",
+      "email": "Email",
+      "emailPlaceholder": "m@example.com",
+      "username": "Username",
+      "usernamePlaceholder": "Enter your username",
+      "password": "Password",
+      "forgotPassword": "Forgot your password?",
+      "submit": "Login",
+      "loggingIn": "Logging in...",
+      "mfaUnsupported": "This account requires MFA, which is not supported yet.",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "termsPrefix": "By clicking continue, you agree to our",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "projects": {
+    "list": {
+      "title": "Projects",
+      "description": "Manage projects and their access settings."
+    },
+    "create": {
+      "title": "Create project",
+      "description": "Create a new project and configure its authentication behavior."
+    },
+    "edit": {
+      "title": "Edit project",
+      "description": "Update the project details and access settings."
+    },
+    "form": {
+      "key": "Project key",
+      "keyDescription": "A unique slug such as fonitas-auth.",
+      "name": "Name",
+      "url": "URL",
+      "description": "Description",
+      "authOnly": "Authentication only",
+      "authOnlyDescription": "Skip Auth RBAC on login for this project.",
+      "active": "Active",
+      "activeDescription": "Controls whether the project is active."
+    },
+    "validation": {
+      "required": "This field is required.",
+      "slug": "Use lowercase letters, numbers and single hyphens only.",
+      "url": "Enter a valid URL."
+    },
+    "table": {
+      "id": "ID",
+      "key": "Project key",
+      "name": "Name",
+      "url": "URL",
+      "authOnly": "Auth only",
+      "status": "Status",
+      "actions": "Project actions",
+      "toggleActive": "Toggle project status"
+    },
+    "sort": {
+      "key": "Project key",
+      "name": "Name",
+      "status": "Status",
+      "authOnly": "Auth only"
+    },
+    "filters": {
+      "all": "All",
+      "status": {
+        "label": "Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "authOnly": {
+        "label": "Authentication",
+        "required": "Required",
+        "notRequired": "Not required"
+      }
+    },
+    "deactivate": {
+      "title": "Deactivate project?",
+      "description": "This will deactivate “{{name}}”. The project will no longer be active.",
+      "confirm": "Deactivate"
+    },
+    "details": {
+      "subtitle": "Project details and configuration",
+      "overview": "Overview",
+      "overviewDescription": "Complete information returned by the project service.",
+      "id": "ID",
+      "key": "Project key",
+      "name": "Name",
+      "url": "URL",
+      "description": "Description",
+      "noDescription": "No description provided.",
+      "status": "Status",
+      "authOnly": "Authentication only",
+      "back": "Back to projects",
+      "notFound": "The project could not be found."
+    }
+  },
+  "users": {
+    "list": {
+      "title": "Users",
+      "description": "Manage system users."
+    },
+    "create": {
+      "title": "Create user",
+      "description": "Create a global identity without sending an email.",
+      "button": "Create user"
+    },
+    "edit": {
+      "title": "Edit user",
+      "description": "Update the user identity and account status."
+    },
+    "form": {
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "emailVerified": "Email verified",
+      "emailVerifiedDescription": "Mark the email address as verified.",
+      "active": "Active",
+      "activeDescription": "Controls whether the account can be used."
+    },
+    "validation": {
+      "usernameRequired": "Username is required.",
+      "emailInvalid": "Enter a valid email address.",
+      "passwordMin": "Password must contain at least 8 characters.",
+      "reasonRequired": "A block reason is required.",
+      "projectRequired": "A valid project is required."
+    },
+    "sort": {
+      "username": "Username",
+      "lastLogin": "Last login",
+      "email": "Email"
+    },
+    "table": {
+      "id": "ID",
+      "username": "Username",
+      "email": "Email",
+      "project": "Project",
+      "role": "Role",
+      "active": "Active",
+      "inactive": "Inactive",
+      "status": "Status",
+      "blocked": "Blocked",
+      "lastLogin": "Last login",
+      "actions": "Actions"
+    },
+    "details": {
+      "subtitle": "User account details",
+      "id": "ID",
+      "username": "Username",
+      "email": "Email",
+      "active": "Active",
+      "blocked": "Blocked",
+      "emailVerified": "Email verified",
+      "notVerified": "Not verified",
+      "lastLogin": "Last login",
+      "createdAt": "Created at",
+      "updatedAt": "Updated at",
+      "deletedAt": "Deleted at",
+      "blockReason": "Block reason",
+      "actions": "Account actions",
+      "back": "Back to users",
+      "notFound": "The user could not be found."
+    },
+    "actions": {
+      "restore": "Restore",
+      "setPassword": "Set password",
+      "verifyEmail": "Verify email",
+      "unverifyEmail": "Unset email verification",
+      "setFirstAdmin": "Set first admin",
+      "block": "Block",
+      "unblock": "Unblock",
+      "delete": "Delete",
+      "blockReasonPrompt": "Enter the reason for blocking this user:",
+      "passwordPrompt": "Enter the new password:",
+      "projectIdPrompt": "Enter the project ID:",
+      "deleteConfirm": "Are you sure you want to delete this user?"
+    }
+  },
+  "validation": {
+    "usernameRequired": "Username is required.",
+    "passwordRequired": "Password is required.",
+    "passwordMin": "Password must contain at least 8 characters."
+  },
+  "finance": {
+    "create": "Erstellen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "settings": "Verkäuferdaten",
+    "contributors": "Drittanbieter & Beteiligte",
+    "accruals": "Umsatzanteile",
+    "name": "Name",
+    "key": "Projektschlüssel",
+    "userId": "Fonitas-Benutzer-ID",
+    "legalName": "Rechtlicher Name",
+    "email": "E-Mail",
+    "street": "Straße und Hausnummer",
+    "city": "Ort",
+    "postalCode": "Postleitzahl",
+    "country": "Ländercode",
+    "vatId": "USt-IdNr.",
+    "locale": "Sprache",
+    "kind": "Art des Beteiligten",
+    "projectId": "Projekt",
+    "customerId": "Kunde",
+    "contributorId": "Beteiligter",
+    "number": "Vertragsnummer",
+    "version": "Version",
+    "rate": "Umsatzanteil (%)",
+    "startsAt": "Gültig ab",
+    "endsAt": "Gültig bis (optional)",
+    "description": "Beschreibung",
+    "amount": "Betrag (EUR)",
+    "classification": "Kostenart",
+    "recurrence": "Häufigkeit",
+    "dueDate": "Fälligkeitsdatum",
+    "supplyDate": "Leistungsdatum",
+    "buyerReference": "Käuferreferenz",
+    "quantity": "Menge",
+    "unitPrice": "Einzelpreis (EUR)",
+    "vatRate": "USt. (%)",
+    "phone": "Telefon",
+    "contactName": "Ansprechpartner",
+    "addLine": "Position hinzufügen",
+    "remove": "Entfernen",
+    "contracts": "Verträge",
+    "preview": "Drucken / Vorschau",
+    "xml": "XRechnung herunterladen",
+    "issue": "Rechnung ausstellen",
+    "approve": "Anteil genehmigen",
+    "saved": "Erfolgreich gespeichert.",
+    "select": "Auswählen…",
+    "basis": "Anteile beziehen sich auf Nettoumsätze vor Zahlungsgebühren, ohne Umsatzsteuer.",
+    "scope": "Dieser Ablauf unterstützt deutsche Inlandsumsätze mit 7 % oder 19 % USt. Andere Steuerfälle werden noch nicht unterstützt.",
+    "missingSeller": "Vor der Rechnungserstellung die rechtlichen Verkäuferdaten speichern.",
+    "validation": "Rechnungen werden vor Ausstellung validiert. Ausgestellte Dokumente sind unveränderlich.",
+    "configuration": "Konfiguration",
+    "ready": "Konfiguriert",
+    "missing": "Nicht konfiguriert",
+    "validator": "XRechnung-Validierung",
+    "mollie": "Mollie-Testzahlungen",
+    "draft": "Entwurf",
+    "issued": "Ausgestellt",
+    "paid": "Bezahlt",
+    "pending": "Ausstehend",
+    "approved": "Genehmigt",
+    "back": "Zurück",
+    "download": "Herunterladen",
+    "currency": "EUR",
+    "contractId": "Vertrag",
+    "title": "Fonitas Finanzen",
+    "login": "Anmelden",
+    "username": "Benutzername oder E-Mail",
+    "password": "Passwort",
+    "code": "Bestätigungscode",
+    "continue": "Weiter",
+    "logout": "Abmelden",
+    "projects": "Projekte",
+    "customers": "Kunden",
+    "expenses": "Ausgaben",
+    "invoices": "Rechnungen",
+    "payments": "Zahlungsverlauf",
+    "refresh": "Aktualisieren",
+    "empty": "Noch keine Einträge.",
+    "ownInvoices": "Ihre Rechnungen",
+    "pay": "Bezahlen",
+    "loading": "Wird geladen…",
+    "enums": {
+      "DEVELOPER": "Entwickler",
+      "AFFILIATE": "Affiliate",
+      "MARKETING": "Marketing",
+      "PROMOTER": "Promoter",
+      "MEDIA": "Digitale Medien",
+      "EMPLOYEE": "Mitarbeiter",
+      "CONTRACTOR": "Auftragnehmer",
+      "INVESTOR": "Investor",
+      "FIXED": "Fix",
+      "VARIABLE": "Variabel",
+      "ONCE": "Einmalig",
+      "MONTHLY": "Monatlich",
+      "YEARLY": "Jährlich"
+    },
+    "invalid": "Dieses Feld prüfen.",
+    "status": "Status",
+    "actions": "Aktionen",
+    "search": "Suchen…",
+    "previous": "Vorherige Seite",
+    "next": "Nächste Seite",
+    "forbidden": "Zugriff verweigert."
+  }
+}

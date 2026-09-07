@@ -1,0 +1,14 @@
+import {StrictMode} from 'react';
+import {createRoot} from 'react-dom/client';
+import {RouterProvider} from 'react-router';
+import {QueryClient,QueryClientProvider} from '@tanstack/react-query';
+import {Toaster} from 'sonner';
+import '@/i18n';
+import './index.css';
+import {ThemeProvider} from '@/components/layout/dark-mode/theme-provider';
+import {TooltipProvider} from '@/components/ui/tooltip';
+import {LocaleProvider} from '@/components/providers/locale-provider';
+import {AuthProvider} from '@/context/auth-context';
+import {app_routes} from '@/routes/app-routes';
+const client=new QueryClient({defaultOptions:{queries:{retry:1,refetchOnWindowFocus:false,staleTime:30000}}});
+createRoot(document.getElementById('root')!).render(<StrictMode><ThemeProvider defaultTheme="light" storageKey="vite-ui-theme"><TooltipProvider><QueryClientProvider client={client}><LocaleProvider><AuthProvider><RouterProvider router={app_routes}/></AuthProvider><Toaster position="top-center" richColors/></LocaleProvider></QueryClientProvider></TooltipProvider></ThemeProvider></StrictMode>);

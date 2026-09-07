@@ -1,0 +1,38 @@
+{
+  "name": "@fonitas/accounting-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node --env-file=.env --import tsx --watch src/main.ts",
+    "build": "tsc",
+    "start": "node --env-file=.env dist/main.js",
+    "test": "tsx --test test/domain.test.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate deploy",
+    "test:integration": "npm run build && tsx --test test/api.test.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "@nestjs/swagger": "^11.0.0",
+    "@prisma/client": "^6.19.0",
+    "decimal.js": "^10.6.0",
+    "helmet": "^8.0.0",
+    "jose": "^6.0.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "prisma": "^6.19.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.0"
+  },
+  "type": "module",
+  "overrides": {
+    "deepmerge-ts": "^8.0.0"
+  }
+}

@@ -1,0 +1,146 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Project {
+  id        String     @id @default(uuid())
+  key       String     @unique
+  name      String
+  createdAt DateTime   @default(now())
+  invoices  Invoice[]
+  contracts Contract[]
+  expenses  Expense[]
+}
+
+model Customer {
+  id        String    @id @default(uuid())
+  userId    Int       @unique
+  legalName String
+  email     String
+  address   Json
+  vatId     String?
+  locale    String    @default("en")
+  invoices  Invoice[]
+}
+
+model Contributor {
+  id        String     @id @default(uuid())
+  name      String
+  kind      String
+  contracts Contract[]
+}
+
+model Contract {
+  id            String      @id @default(uuid())
+  number        String
+  version       Int
+  projectId     String
+  project       Project     @relation(fields: [projectId], references: [id])
+  contributorId String
+  contributor   Contributor @relation(fields: [contributorId], references: [id])
+  basis         String
+  rate          Decimal     @db.Decimal(9, 6)
+  startsAt      DateTime
+  endsAt        DateTime?
+  createdAt     DateTime    @default(now())
+
+  @@unique([number, version])
+}
+
+model Invoice {
+  id               String    @id @default(uuid())
+  number           String?   @unique
+  projectId        String
+  project          Project   @relation(fields: [projectId], references: [id])
+  customerId       String
+  customer         Customer  @relation(fields: [customerId], references: [id])
+  currency         String    @default("EUR")
+  locale           String
+  status           String    @default("DRAFT")
+  lines            Json
+  seller           Json
+  buyer            Json
+  contractSnapshot Json
+  net              Decimal   @db.Decimal(18, 2)
+  tax              Decimal   @db.Decimal(18, 2)
+  total            Decimal   @db.Decimal(18, 2)
+  createdAt        DateTime  @default(now())
+  issuedAt         DateTime?
+  payments         Payment[]
+  dueDate          String?
+  supplyDate       String?
+  buyerReference   String?
+  xml              String?
+  html             String?
+  validationReport String?
+  documentHash     String?
+}
+
+model Payment {
+  id          String   @id @default(uuid())
+  invoiceId   String
+  invoice     Invoice  @relation(fields: [invoiceId], references: [id])
+  providerId  String?  @unique
+  checkoutUrl String?
+  status      String   @default("CREATING")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Expense {
+  id             String   @id @default(uuid())
+  projectId      String
+  project        Project  @relation(fields: [projectId], references: [id])
+  description    String
+  amount         Decimal  @db.Decimal(18, 2)
+  currency       String
+  classification String
+  recurrence     String
+  createdAt      DateTime @default(now())
+}
+
+model Journal {
+  id        String   @id @default(uuid())
+  reference String   @unique
+  currency  String
+  entries   Json
+  createdAt DateTime @default(now())
+}
+
+model Audit {
+  id        String   @id @default(uuid())
+  userId    Int
+  action    String
+  entityId  String
+  createdAt DateTime @default(now())
+}
+
+model Accrual {
+  id              String   @id @default(uuid())
+  paymentId       String
+  contractId      String
+  contributorId   String
+  contractNumber  String
+  contractVersion Int
+  amount          Decimal  @db.Decimal(18, 2)
+  currency        String
+  status          String   @default("PENDING")
+  createdAt       DateTime @default(now())
+
+  @@unique([paymentId, contractId])
+}
+
+model SellerSettings {
+  id String @id @default("fonitas")
+  details Json
+  updatedAt DateTime @updatedAt
+}
+model InvoiceSequence {
+  year Int @id
+  value Int
+}

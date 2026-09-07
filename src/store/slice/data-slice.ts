@@ -5,7 +5,7 @@ import { arData } from "src/data/ar";
 import { trData } from "src/data/tr";
 
 const getInitialLanguage = () => {
-  const language = 'fa'
+  const language = localStorage.getItem("locale") || navigator.language.split("-")[0]
   return language === "en"
     ? enData
     : language === "fa"

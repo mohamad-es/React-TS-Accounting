@@ -1,0 +1,18 @@
+services:
+  validator:
+    build: ./validator
+    ports: ["127.0.0.1:8087:8080"]
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: fonitas
+      POSTGRES_PASSWORD: local_only
+      POSTGRES_DB: accounting
+    ports: ["127.0.0.1:5433:5432"]
+    volumes: ["accounting_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fonitas -d accounting"]
+      interval: 5s
+      retries: 10
+volumes:
+  accounting_data:

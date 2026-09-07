@@ -1,0 +1,403 @@
+{
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "search": "بحث",
+    "loading": "جارٍ التحميل...",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "view": "عرض",
+    "create": "إنشاء",
+    "sortBy": "ترتيب حسب",
+    "asc": "تصاعدي",
+    "desc": "تنازلي",
+    "logout": "تسجيل الخروج",
+    "selectDate": "اختر التاريخ",
+    "noContent": "لم يتم العثور على محتوى",
+    "pageOf": "الصفحة {{page}} من {{total}}",
+    "itemsPerPage": "العناصر في الصفحة"
+  },
+  "sidebar": {
+    "dashboard": "لوحة التحكم",
+    "users": {
+      "title": "المستخدمون",
+      "customers": "العملاء",
+      "employees": "الموظفون",
+      "auditLog": "سجل نشاط المستخدمين"
+    },
+    "finance": {
+      "title": "المالية",
+      "transactions": "المعاملات",
+      "goldWallet": "سجل محفظة الذهب",
+      "giftCards": "بطاقات الهدايا",
+      "withdrawals": "طلبات السحب"
+    },
+    "banks": {
+      "title": "البنوك",
+      "list": "قائمة البنوك",
+      "customerAccounts": "حسابات العملاء البنكية"
+    },
+    "branches": {
+      "title": "الفروع وتسليم الذهب",
+      "list": "الفروع",
+      "deliveryRequests": "طلبات تسليم الذهب"
+    },
+    "support": {
+      "title": "الدعم",
+      "tickets": "التذاكر",
+      "categories": "فئات التذاكر"
+    },
+    "content": {
+      "title": "إدارة المحتوى",
+      "blogPosts": "منشورات المدونة",
+      "blogCategories": "فئات المدونة",
+      "stories": "القصص",
+      "faq": "الأسئلة الشائعة",
+      "faqCategories": "فئات الأسئلة الشائعة"
+    },
+    "systemSettings": "إعدادات النظام",
+    "projects": {
+      "title": "المشاريع",
+      "list": "قائمة المشاريع",
+      "auditLog": "سجل النشاط"
+    }
+  },
+  "language": {
+    "select": "اختر اللغة"
+  },
+  "dashboard": {
+    "cards": {
+      "totalRevenue": "إجمالي الإيرادات",
+      "newCustomers": "العملاء الجدد",
+      "activeAccounts": "الحسابات النشطة",
+      "growthRate": "معدل النمو",
+      "trendingUp": "اتجاه صعودي هذا الشهر",
+      "visitorsSixMonths": "الزوار خلال آخر 6 أشهر",
+      "downPeriod": "انخفاض {{value}} خلال هذه الفترة",
+      "acquisitionAttention": "اكتساب العملاء يحتاج إلى توجه",
+      "retention": "احتفاظ قوي بالمستخدمين",
+      "engagementTargets": "التفاعل يتجاوز الأهداف",
+      "steadyIncrease": "زيادة مستقرة في الأداء",
+      "growthProjections": "يتوافق مع توقعات النمو",
+      "visitorsMonths": "الزوار خلال آخر {{months}} أشهر"
+    },
+    "chart": {
+      "totalVisitors": "إجمالي الزوار",
+      "totalLast3Months": "الإجمالي خلال آخر {{months}} أشهر",
+      "last3Months": "آخر {{months}} أشهر",
+      "last30Days": "آخر {{days}} يومًا",
+      "last7Days": "آخر {{days}} أيام",
+      "selectValue": "اختر فترة زمنية",
+      "visitors": "الزوار",
+      "desktop": "سطح المكتب",
+      "mobile": "الهاتف المحمول"
+    },
+    "title": "لوحة التحكم",
+    "description": "نظرة عامة على أداء النظام والمؤشرات الرئيسية"
+  },
+  "theme": {
+    "select": "اختر المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام"
+  },
+  "auth": {
+    "login": {
+      "title": "مرحبًا بعودتك",
+      "description": "سجّل الدخول باستخدام بيانات حساب المشرف العام",
+      "apple": "تسجيل الدخول باستخدام Apple",
+      "google": "تسجيل الدخول باستخدام Google",
+      "orContinueWith": "أو تابع باستخدام",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "m@example.com",
+      "username": "اسم المستخدم",
+      "usernamePlaceholder": "أدخل اسم المستخدم",
+      "password": "كلمة المرور",
+      "forgotPassword": "هل نسيت كلمة المرور؟",
+      "submit": "تسجيل الدخول",
+      "loggingIn": "جارٍ تسجيل الدخول...",
+      "mfaUnsupported": "يتطلب هذا الحساب مصادقة متعددة العوامل، وهي غير مدعومة بعد.",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "إنشاء حساب",
+      "termsPrefix": "بالنقر على المتابعة، فإنك توافق على",
+      "terms": "شروط الخدمة",
+      "and": "و",
+      "privacy": "سياسة الخصوصية"
+    }
+  },
+  "projects": {
+    "list": {
+      "title": "المشاريع",
+      "description": "إدارة المشاريع وإعدادات الوصول الخاصة بها."
+    },
+    "create": {
+      "title": "إنشاء مشروع",
+      "description": "أنشئ مشروعًا جديدًا واضبط إعدادات المصادقة الخاصة به."
+    },
+    "edit": {
+      "title": "تعديل المشروع",
+      "description": "حدّث بيانات المشروع وإعدادات الوصول."
+    },
+    "form": {
+      "key": "مفتاح المشروع",
+      "keyDescription": "معرّف slug فريد مثل fonitas-auth.",
+      "name": "الاسم",
+      "url": "الرابط",
+      "description": "الوصف",
+      "authOnly": "المصادقة فقط",
+      "authOnlyDescription": "تجاوز Auth RBAC عند تسجيل الدخول لهذا المشروع.",
+      "active": "نشط",
+      "activeDescription": "يحدد ما إذا كان المشروع نشطًا."
+    },
+    "validation": {
+      "required": "هذا الحقل مطلوب.",
+      "slug": "استخدم الأحرف الإنجليزية الصغيرة والأرقام والشرطات المفردة فقط.",
+      "url": "أدخل رابطًا صالحًا."
+    },
+    "table": {
+      "id": "المعرّف",
+      "key": "مفتاح المشروع",
+      "name": "الاسم",
+      "url": "الرابط",
+      "authOnly": "المصادقة",
+      "status": "الحالة",
+      "actions": "إجراءات المشروع",
+      "toggleActive": "تغيير حالة المشروع"
+    },
+    "sort": {
+      "key": "مفتاح المشروع",
+      "name": "الاسم",
+      "status": "الحالة",
+      "authOnly": "المصادقة"
+    },
+    "filters": {
+      "all": "الكل",
+      "status": {
+        "label": "الحالة",
+        "active": "نشط",
+        "inactive": "غير نشط"
+      },
+      "authOnly": {
+        "label": "المصادقة",
+        "required": "مطلوبة",
+        "notRequired": "غير مطلوبة"
+      }
+    },
+    "deactivate": {
+      "title": "تعطيل المشروع؟",
+      "description": "سيتم تعطيل «{{name}}» ولن يبقى نشطًا.",
+      "confirm": "تعطيل"
+    },
+    "details": {
+      "subtitle": "تفاصيل المشروع وإعداداته",
+      "overview": "نظرة عامة",
+      "overviewDescription": "جميع المعلومات التي أعادتها خدمة المشروع.",
+      "id": "المعرّف",
+      "key": "مفتاح المشروع",
+      "name": "الاسم",
+      "url": "الرابط",
+      "description": "الوصف",
+      "noDescription": "لا يوجد وصف.",
+      "status": "الحالة",
+      "authOnly": "المصادقة فقط",
+      "back": "العودة إلى المشاريع",
+      "notFound": "تعذر العثور على المشروع."
+    }
+  },
+  "users": {
+    "list": {
+      "title": "المستخدمون",
+      "description": "إدارة مستخدمي النظام."
+    },
+    "create": {
+      "title": "إنشاء مستخدم",
+      "description": "أنشئ هوية مستخدم جديدة دون إرسال بريد إلكتروني.",
+      "button": "إنشاء مستخدم"
+    },
+    "edit": {
+      "title": "تعديل المستخدم",
+      "description": "حدّث هوية المستخدم وحالة الحساب."
+    },
+    "form": {
+      "username": "اسم المستخدم",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "emailVerified": "البريد الإلكتروني موثّق",
+      "emailVerifiedDescription": "وضع علامة على عنوان البريد الإلكتروني كموثّق.",
+      "active": "نشط",
+      "activeDescription": "يحدد ما إذا كان الحساب قابلًا للاستخدام."
+    },
+    "validation": {
+      "usernameRequired": "اسم المستخدم مطلوب.",
+      "emailInvalid": "أدخل عنوان بريد إلكتروني صالحًا.",
+      "passwordMin": "يجب أن تتكون كلمة المرور من ٨ أحرف على الأقل.",
+      "reasonRequired": "سبب الحظر مطلوب.",
+      "projectRequired": "يجب اختيار مشروع صالح."
+    },
+    "sort": {
+      "username": "اسم المستخدم",
+      "lastLogin": "آخر تسجيل دخول",
+      "email": "البريد الإلكتروني"
+    },
+    "table": {
+      "id": "المعرّف",
+      "username": "اسم المستخدم",
+      "email": "البريد الإلكتروني",
+      "project": "المشروع",
+      "role": "الدور",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "status": "الحالة",
+      "blocked": "محظور",
+      "lastLogin": "آخر تسجيل دخول",
+      "actions": "الإجراءات"
+    },
+    "details": {
+      "subtitle": "تفاصيل حساب المستخدم",
+      "id": "المعرّف",
+      "username": "اسم المستخدم",
+      "email": "البريد الإلكتروني",
+      "active": "نشط",
+      "blocked": "محظور",
+      "emailVerified": "البريد الإلكتروني موثّق",
+      "notVerified": "غير موثّق",
+      "lastLogin": "آخر تسجيل دخول",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "deletedAt": "تاريخ الحذف",
+      "blockReason": "سبب الحظر",
+      "actions": "إجراءات الحساب",
+      "back": "العودة إلى المستخدمين",
+      "notFound": "تعذر العثور على المستخدم."
+    },
+    "actions": {
+      "restore": "استعادة",
+      "setPassword": "تعيين كلمة المرور",
+      "verifyEmail": "توثيق البريد الإلكتروني",
+      "unverifyEmail": "إلغاء توثيق البريد الإلكتروني",
+      "setFirstAdmin": "تعيين المسؤول الأول",
+      "block": "حظر",
+      "unblock": "إلغاء الحظر",
+      "delete": "حذف",
+      "blockReasonPrompt": "أدخل سبب حظر هذا المستخدم:",
+      "passwordPrompt": "أدخل كلمة المرور الجديدة:",
+      "projectIdPrompt": "أدخل معرّف المشروع:",
+      "deleteConfirm": "هل أنت متأكد من حذف هذا المستخدم؟"
+    }
+  },
+  "validation": {
+    "usernameRequired": "اسم المستخدم مطلوب.",
+    "passwordRequired": "كلمة المرور مطلوبة.",
+    "passwordMin": "يجب أن تتكون كلمة المرور من ٨ أحرف على الأقل."
+  },
+  "finance": {
+    "create": "إنشاء",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "settings": "بيانات البائع",
+    "contributors": "الأطراف الثالثة والمساهمون",
+    "accruals": "حصص المبيعات",
+    "name": "الاسم",
+    "key": "مفتاح المشروع",
+    "userId": "معرف مستخدم فونيتاس",
+    "legalName": "الاسم القانوني",
+    "email": "البريد الإلكتروني",
+    "street": "الشارع والرقم",
+    "city": "المدينة",
+    "postalCode": "الرمز البريدي",
+    "country": "رمز الدولة",
+    "vatId": "معرف الضريبة",
+    "locale": "اللغة",
+    "kind": "نوع المساهم",
+    "projectId": "المشروع",
+    "customerId": "العميل",
+    "contributorId": "المساهم",
+    "number": "رقم العقد",
+    "version": "الإصدار",
+    "rate": "حصة المبيعات (%)",
+    "startsAt": "صالح من",
+    "endsAt": "صالح حتى (اختياري)",
+    "description": "الوصف",
+    "amount": "المبلغ (يورو)",
+    "classification": "نوع التكلفة",
+    "recurrence": "التكرار",
+    "dueDate": "تاريخ الاستحقاق",
+    "supplyDate": "تاريخ التوريد",
+    "buyerReference": "مرجع المشتري",
+    "quantity": "الكمية",
+    "unitPrice": "سعر الوحدة (يورو)",
+    "vatRate": "الضريبة (%)",
+    "phone": "الهاتف",
+    "contactName": "جهة الاتصال",
+    "addLine": "إضافة بند",
+    "remove": "إزالة",
+    "contracts": "العقود",
+    "preview": "طباعة / معاينة",
+    "xml": "تنزيل الفاتورة الإلكترونية",
+    "issue": "إصدار الفاتورة",
+    "approve": "اعتماد الحصة",
+    "saved": "تم الحفظ.",
+    "select": "اختر…",
+    "basis": "الحصص من صافي المبيعات قبل رسوم الدفع وبدون الضريبة.",
+    "scope": "يدعم هذا المسار المبيعات المحلية الألمانية بضريبة 7% أو 19%.",
+    "missingSeller": "احفظ بيانات البائع القانونية أولاً.",
+    "validation": "يتم التحقق من الفواتير قبل الإصدار ولا يمكن تعديل المستندات الصادرة.",
+    "configuration": "الإعدادات",
+    "ready": "تم الإعداد",
+    "missing": "غير معد",
+    "validator": "مدقق الفاتورة الإلكترونية",
+    "mollie": "مدفوعات مولي التجريبية",
+    "draft": "مسودة",
+    "issued": "صادرة",
+    "paid": "مدفوعة",
+    "pending": "معلقة",
+    "approved": "معتمدة",
+    "back": "رجوع",
+    "download": "تنزيل",
+    "currency": "يورو",
+    "contractId": "العقد",
+    "title": "مالية فونيتاس",
+    "login": "تسجيل الدخول",
+    "username": "اسم المستخدم أو البريد",
+    "password": "كلمة المرور",
+    "code": "رمز التحقق",
+    "continue": "متابعة",
+    "logout": "تسجيل الخروج",
+    "projects": "المشاريع",
+    "customers": "العملاء",
+    "expenses": "المصروفات",
+    "invoices": "الفواتير",
+    "payments": "سجل المدفوعات",
+    "refresh": "تحديث",
+    "empty": "لا توجد سجلات بعد.",
+    "ownInvoices": "فواتيرك",
+    "pay": "الدفع",
+    "loading": "جار التحميل…",
+    "enums": {
+      "DEVELOPER": "مطور",
+      "AFFILIATE": "مسوق بالعمولة",
+      "MARKETING": "تسويق",
+      "PROMOTER": "مروج",
+      "MEDIA": "إعلام رقمي",
+      "EMPLOYEE": "موظف",
+      "CONTRACTOR": "متعاقد",
+      "INVESTOR": "مستثمر",
+      "FIXED": "ثابتة",
+      "VARIABLE": "متغيرة",
+      "ONCE": "مرة واحدة",
+      "MONTHLY": "شهرياً",
+      "YEARLY": "سنوياً"
+    },
+    "invalid": "تحقق من هذا الحقل.",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "search": "بحث…",
+    "previous": "الصفحة السابقة",
+    "next": "الصفحة التالية",
+    "forbidden": "الوصول مرفوض."
+  }
+}

@@ -1,3 +1,4 @@
+import FinanceRedirect from "../components/FinanceRedirect";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout";
 import ProtectRoute from "src/hooks/ProtectedRoute";
@@ -9,6 +10,7 @@ import ProtectAuth from "src/hooks/ProtectAuth";
 import { permissionsRouters } from "./permissions.routes";
 
 const router = createBrowserRouter([
+  { path: "/finance", element: <FinanceRedirect /> },
   {
     path: "",
     element: <ProtectAuth />,
@@ -29,6 +31,5 @@ const router = createBrowserRouter([
     ],
   },
 ]);
-
 
 export default router;
